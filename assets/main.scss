@@ -19,7 +19,8 @@ $font-size-7: 2.79rem; /* modular scale here should be 2.99 */
 $font-size-8: 3.58rem;
 $font-size-9: .9rem;
 $base-line-height: 1.6;
-$article-width: 600px;
+$article-width: 480px;
+$feature-image-width: 300px;
 $welcome-note-width: 600px;
 
 
@@ -75,6 +76,10 @@ h2 {
   letter-spacing: 1px;
 }
 
+h3 {
+  
+}
+
 p {
   font-family: $base-font-family;
   font-size: $font-size-1;
@@ -91,24 +96,23 @@ p {
 
 /* case study section divs */
 
-  .section-container {
-    position: relative;
-    left: 10%;
-  }
-
   .content-container {
-    padding-left: 10rem;
-    padding-right: 10rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .content-column {
     display: inline-block;
     width: $article-width;
     padding: 1rem;
+    vertical-align: middle;
+    background-color: $light-grey;
   }  
 
   .feature-image {
     text-align: center;
+    background-color: $header-color;
   }
 
   .image-spread-desktop {
@@ -144,9 +148,10 @@ p {
 
 .welcome-content {
   position: relative;
-  left: 20%;
+  left: 17.5%;
   top: 22rem;
   padding-top: 0rem;
+  padding-left: 1rem;
   margin-top: -2.5rem;
   margin-right: -1rem;
 
@@ -200,13 +205,6 @@ p {
   content: "";
   display: table;
   clear: both;
-  }
-
-  .gallery-container {
-    width: 65%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .square {
