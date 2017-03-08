@@ -1,28 +1,103 @@
+<script>
+function openModal() {
+  document.getElementById('gallery-modal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('gallery-modal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("gallery-slides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
 <div class="gallery-section">
-	
+
+
 	<div class="content-container">
 		<h2>Other Work</h2>
 
     <div class="square">
-    	<div class="square-content"><a href=""><img src="/images/80_percent_thumb.png" alt="business is 80 percent quote" width="200px" height="200px"></a></div>
+    	<div class="square-content"><img src="/images/80_percent_thumb.png" alt="business is 80 percent quote" onclick="openModal();currentSlide(1)" width="200px" height="200px"></a></div>
     </div>
     <div class="square">
-    	<div class="square-content"><img src="/images/marketing_is_thumb.png" alt="marketing is quote" width="200px" height="200px"></div>
+    	<div class="square-content"><img src="/images/marketing_is_thumb.png" alt="marketing is quote" onclick="openModal();currentSlide(2)" width="200px" height="200px"></div>
     </div>
     <div class="square">
-    	<div class="square-content"><img src="/images/toddler_thumb.png" alt="1910s toddler illustration" width="200px" height="200px"></div>
+    	<div class="square-content"><img src="/images/toddler_thumb.png" alt="1910s toddler illustration" onclick="openModal();currentSlide(3)" width="200px" height="200px"></div>
     </div>
 
     <div class="square">
-    	<div class="square-content"><img src="/images/two-flat_thumb.png" alt="two-flat illustration" width="200px" height="200px"></div>
+    	<div class="square-content"><img src="/images/two-flat_thumb.png" alt="two-flat illustration" onclick="openModal();currentSlide(4)" width="200px" height="200px"></div>
     </div>
     <div class="square">
-    	<div class="square-content"><img src="/images/florence_thumb.png" alt="florence scala portrait" width="200px" height="200px"></div>
+    	<div class="square-content"><img src="/images/florence_thumb.png" alt="florence scala portrait" onclick="openModal();currentSlide(5)" width="200px" height="200px"></div>
     </div>
     <div class="square">
-    	<div class="square-content"><img src="/images/gabels_thumb.png" alt="gabels sign illustration" width="200px" height="200px"></div>
+    	<div class="square-content"><img src="/images/gabels_thumb.png" alt="gabels sign illustration" onclick="openModal();currentSlide(6)" width="200px" height="200px"></div>
     </div>
 
 	</div>
+
+<div id="gallery-modal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="gallery-slides">
+        <img src="/images/80_percent.png" style="width:100%">
+    </div>
+
+    <div class="gallery-slides">
+        <img src="/images/marketing_is.png" style="width:100%">
+    </div>
+
+    <div class="gallery-slides">
+        <img src="/images/toddler.png" style="width:100%">
+    </div>
+
+    <div class="gallery-slides">
+        <img src="/images/two-flat.png" style="width:100%">
+    </div>
+
+    <div class="gallery-slides">
+        <img src="/images/florence.png" style="width:100%">
+    </div>
+
+    <div class="gallery-slides">
+        <img src="/images/gabels.png" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div class="caption-container">
+      <p id="caption"></p>
+    </div>
 
 </div>
