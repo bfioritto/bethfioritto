@@ -42,7 +42,8 @@ $desktop:        1024px;
 }
 
 
-/* default.html, type formatting */
+
+/* default.html, incl nav and footer, type formatting */
 
 .nav-links {
   li {
@@ -94,11 +95,38 @@ p {
   letter-spacing: 0px;
 }
 
+a {
+  color: $link;
+
+}
+
+a visited {
+  color: $link-visited;
+}
+
 .site-footer {
   display: block;
 }
 
+.contact-list {
+  font-family: $base-font-family;
+  li {
+    display: inline;
+    padding: .5rem;
+    a {
+      text-decoration: none;
+    } 
+    &:first-child a {
+      text-decoration: underline;
+    }
+  } 
+}
 
+.site-description {
+  text-align: center;
+  margin: -2.5rem;
+  color: $text-color;
+}
 
 /* case study section divs */
 
@@ -161,7 +189,6 @@ p {
 
 
 
-
 /* welcome.html */
 
 .welcome-section {
@@ -206,6 +233,8 @@ p {
     margin-top: -1rem;
   }
 }
+
+
 
 /* swift_kick.html */
 
@@ -254,6 +283,7 @@ p {
     filter: alpha(opacity=75);
     }
   }
+}
 
 
 /* gallery slideshow modal */
@@ -341,7 +371,6 @@ p {
 
 
 
-}
 
 
 
