@@ -21,7 +21,7 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("gallery-slides");
-  var dots = document.getElementsByClassName("demo");
+  var dots = document.getElementsByClassName("gallery-image");
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -44,7 +44,7 @@ function showSlides(n) {
 		<h2>Other Work</h2>
 
     <div class="square">
-    	<div class="square-content"><img src="/images/80_percent_thumb.png" alt="business is 80 percent quote" onclick="openModal();currentSlide(1)" width="200px" height="200px"></a></div>
+    	<div class="square-content"><img src="/images/80_percent_thumb.png" alt="business is 80 percent quote" onclick="openModal();currentSlide(1)" width="200px" height="200px"></div>
     </div>
     <div class="square">
     	<div class="square-content"><img src="/images/marketing_is_thumb.png" alt="marketing is quote" onclick="openModal();currentSlide(2)" width="200px" height="200px"></div>
@@ -70,27 +70,27 @@ function showSlides(n) {
   <div class="modal-content">
 
     <div class="gallery-slides">
-        <img src="/images/80_percent.png" style="width:100%">
+        <img class="gallery-image" src="/images/80_percent.png" alt="Illustrated quote series for Amy Hoy" style="width:100%">
     </div>
 
     <div class="gallery-slides">
-        <img src="/images/marketing_is.png" style="width:100%">
+        <img class="gallery-image" src="/images/marketing_is.png" alt="Illustrated quote series for Amy Hoy" style="width:100%">
     </div>
 
     <div class="gallery-slides">
-        <img src="/images/toddler.png" style="width:100%">
+        <img class="gallery-image" src="/images/toddler.png" alt="Personal Project: History of Maxwell Street Market. Toddler, 1910." style="width:100%">
     </div>
 
     <div class="gallery-slides">
-        <img src="/images/two-flat.png" style="width:100%">
+        <img class="gallery-image" src="/images/two-flat.png" alt="Personal Project: History of Maxwell Street Market. Chicago Two-Flat." style="width:100%">
     </div>
 
     <div class="gallery-slides">
-        <img src="/images/florence.png" style="width:100%">
+        <img class="gallery-image" src="/images/florence.png" alt="Personal Project: History of Maxwell Street Market. Florence Scala." style="width:100%">
     </div>
 
     <div class="gallery-slides">
-        <img src="/images/gabels.png" style="width:100%">
+        <img class="gallery-image" src="/images/gabels.png" alt="Personal Project: History of Maxwell Street Market. Gabel's Clothing Sign." style="width:100%">
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
