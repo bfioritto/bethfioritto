@@ -2,7 +2,7 @@
 
         <ul class="contact-list">
           {% if site.email %}
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{% include email_icon.svg %}</a></li>
           {% endif %}
 
           {% if site.instagram_username %}
