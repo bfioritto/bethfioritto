@@ -6,7 +6,7 @@ title: contact form that will eventually be an include
 <div class="contact-form">
 	Want to work together? Enter your name and best email address below.
 
-	<form action="pretty sure this comes from mailchimp"
+	<form action="this was i think a url with lots of random bits: pretty sure this comes from mailchimp"
       method="post"
       id="prospective-client"
       name="mc-embedded-subscribe-form"

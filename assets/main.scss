@@ -7,7 +7,7 @@
 @import "syntax-highlighting";
 
 // Our variables
-$base-font-family: "skolar-latin", serif;
+$base-font-family: "effra", sans-serif;
 $header-font-family: "effra", sans-serif;
 $font-size-1: 1rem;
 $font-size-2: 1.2rem;
@@ -28,11 +28,12 @@ $background-color-1: rgb(241, 241, 240);
 $light-grey: rgb(220,220,220);
 $medium-grey: rgb(190,187,180);
 $light-coral: rgb(253,155,150);
+$light-coral-transparent: rgba(253,155,150, 0.6);
 $text-color: rgb(60,60,60);
 $header-color: rgb(215,53,25);
 $link: rgb(65,100,35);
 $link-visited: rgb(40,70,10);
-$hover-color: rgb(65,100,35);
+$hover-color: rgb(200,120,45);
 
 $desktop:        1024px;
 
@@ -99,6 +100,10 @@ p {
 a {
   color: $link;
 
+}
+
+a hover {
+  color: $hover-color;
 }
 
 a visited {
@@ -202,16 +207,24 @@ a visited {
   background-repeat: no-repeat;
   background-color: $background-color-1;
   padding: 0px;
+  min-height: 32rem;
+}
+
+.spacer {
+  width: 100%;
+  padding-bottom: 10%;
 }
 
 .welcome-content {
   position: relative;
   left: 17.5%;
-  top: 22rem;
-  padding-top: 0rem;
-  padding-left: 0rem;
-  margin-top: -2.5rem;
-  margin-right: -1rem;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin-left: -3rem;
+  padding-bottom: 1rem;
+  max-width: $welcome-note-width;
+  background-color: $light-coral-transparent;
 
   h1 {
     font-family: $base-font-family;
@@ -228,14 +241,14 @@ a visited {
     color: $text-color;
     width: $welcome-note-width;
     margin-top: -1rem;
-    padding-bottom: 26rem;
+    padding-bottom: 1rem;
   }
 
   img {
     float: left;
+    padding-top: 1.5rem;
     margin-right: 2rem;
     margin-bottom: 26rem;
-    margin-top: -1rem;
   }
 }
 
@@ -379,7 +392,7 @@ a visited {
 
 /* contact form include */
 .contact-form {
-  background-color: $background-color-1;
+  background-color: $light-coral;
   font-family: $base-font-family;
   font-size: $font-size-2;
   text-align: center;

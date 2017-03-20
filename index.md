@@ -9,4 +9,4 @@ title: Beth Fioritto
 
 {% include gallery.html %}
 
-<p>here's some stuff. hello?</p>
+{% include contact_form.html %}
