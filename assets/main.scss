@@ -29,6 +29,7 @@ $light-grey: rgb(220,220,220);
 $medium-grey: rgb(190,187,180);
 $light-coral: rgb(253,155,150);
 $light-coral-transparent: rgba(253,155,150, 0.6);
+$blush: rgb(253,205,196);
 $text-color: rgb(60,60,60);
 $header-color: rgb(215,53,25);
 $link: rgb(65,100,35);
@@ -202,54 +203,101 @@ a visited {
 /* welcome.html */
 
 .welcome-section {
-  background-image: url("../images/welcome_background.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: $background-color-1;
+  background-color: $blush;
   padding: 0px;
   min-height: 32rem;
-}
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  font-size: 2rem;
 
-.spacer {
-  width: 100%;
-  padding-bottom: 10%;
-}
+  .hi-there {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100%;
+  letter-spacing: 2px;
+  line-height: 100%;
+  }
 
-.welcome-content {
-  position: relative;
-  left: 17.5%;
+  .im-beth {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  font-size: 165%;
+  letter-spacing: 3px;
+  line-height: 100%;
   padding-top: 2rem;
-  padding-right: 3rem;
-  padding-left: 3rem;
-  margin-left: -3rem;
-  padding-bottom: 1rem;
-  max-width: $welcome-note-width;
-  background-color: $light-coral-transparent;
-
-  h1 {
-    font-family: $base-font-family;
-    font-size: $font-size-8;
-    color: $text-color;
-    font-weight: 300;
-    letter-spacing: -1.5px;
   }
 
+  .recent-work {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  font-size: 133%;
+  letter-spacing: 4px;
+  line-height: 125%;
+  }
+
+  .web-design {
+  font-family: acumin-pro-wide;
+  font-weight: 900;
+  font-size: 238%;
+  letter-spacing: 4px;
+  line-height: 100%;
+  }
+
+  .illustration {
+  font-family: acumin-pro-condensed;
+  font-weight: 900;
+  font-size: 332%;
+  letter-spacing: 6px;
+  line-height: 90%;
+  }
+
+  .logo-design {
+  font-family: acumin-pro;
+  font-weight: 900;
+  font-size: 134%;
+  letter-spacing: 2px;
+  line-height: 145%;
+  }
+
+  .hand-lettering {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  font-size: 327%;
+  letter-spacing: 8px;
+  line-height: 70%;
+  }
+
+  .fun-facts {
+  max-width: 40rem;
+  margin: auto;
+  padding-top: 1rem;
+  h2 {
+    text-align: left;
+    font-family: acumin-pro;
+    font-weight: 700;
+    font-size: 99%;
+    color: $light-coral;
+    padding: 0rem;
+    margin: 0rem;
+    }
   p {
-    font-family: $header-font-family;
-    font-size: $font-size-3;
-    font-weight: 100;
+    text-align: left;
+    font-family: acumin-pro-extra-condensed;
+    font-weight: 700;
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 108%;
     color: $text-color;
-    width: $welcome-note-width;
-    margin-top: -1rem;
-    padding-bottom: 1rem;
+    padding: 0rem;
+    margin: 0rem;
+    }
   }
 
-  img {
-    float: left;
-    padding-top: 1.5rem;
-    margin-right: 2rem;
-    margin-bottom: 26rem;
-  }
+
+
 }
 
 
