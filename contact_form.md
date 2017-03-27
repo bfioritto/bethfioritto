@@ -1,10 +1,10 @@
 ---
 layout: default
-title: contact form that will eventually be an include
+title: this needs to be deleted
 ---
 
 <div class="contact-form">
-	Want to work together? Enter your name and best email address below.
+	<div class="cta">Want to work together? Enter your name and best dskfm;aldkfj;email address below.</div>
 
 	<form action="this was i think a url with lots of random bits: pretty sure this comes from mailchimp"
       method="post"
@@ -19,6 +19,10 @@ title: contact form that will eventually be an include
 
 	<div class="input-box">
 		<input type="email" value="" name="EMAIL" class="email" id="input-box" placeholder="Email Address">
+	</div>
+
+	<div class="input-box">
+		<input type="description" value="" name="DESCRIPTION" class="description" id="input-box" placeholder="Tell me a little bit about what I can help you with.">
 	</div>
 
 	<div class="submit-button">
