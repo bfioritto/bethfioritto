@@ -92,6 +92,7 @@ $link-visited: rgb(40,70,10);
 $hover-color: rgb(200,120,45);
 
 $desktop:        1024px;
+$small:          767px;
 
 @mixin media-query($breakpoint) {
     @media screen and (min-width: $breakpoint) {
@@ -105,25 +106,29 @@ $desktop:        1024px;
 .nav-links {
   li {
     display: inline;
+    padding: .2rem;
+    @include media-query($desktop) {
     padding: .4rem;
-    opacity: 1;
+    }
   }
   font-family: $header-font-family;
-  font-size: $font-size-2;
+  font-size: $font-size-1;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1.6px;
+  letter-spacing: 1px;
   list-style-type: none;
   position: absolute;
   right: 0rem;
   text-align: right;
-  padding-right: 9rem;
-  padding-top: 1.5rem;
   width: 100%;
-  background-color: rgba(253,155,150, 0.0);
-
-  background-size: 100%;
-  margin-bottom: 0rem;
+  padding-top: .6rem;
+  padding-right: 1rem;
+  @include media-query($desktop) {
+  font-size: $font-size-2;
+  letter-spacing: 1.6px;
+  padding-right: 9rem;
+  padding-top: 1.6rem;
+  }
 }
 
 h2 {
@@ -172,29 +177,50 @@ a visited {
 .site-footer {
   display: block;
   background-color: $link;
-  padding-bottom: 1.2rem;
+  padding-bottom: 0rem;
   padding-top: 1.2rem;
+  @include media-query($desktop) {
+  padding-top: 0rem;
+  padding-bottom: 1.6rem;
+  }
 }
 
 .contact-list {
   font-family: $base-font-family;
   font-size: $font-size-1;
-  text-align: right;
-  padding-right: 9rem;
+  text-align: center;
   li {
     display: inline;
-    padding-right: 1rem;
+    padding-right: .4rem;
+    padding-left: .4rem;
     a {
       text-decoration: none;
     }
   } 
+  @include media-query($desktop) {
+    text-align: right;
+    padding-right: 9rem;
+    padding-top: 1.2rem;
+    li {
+      padding-left: 1rem;
+      padding-right: 0rem;
+    } 
+  }
 }
 
 .site-description {
   text-align: center;
-  margin: -1.4rem;
+  margin-top: .6rem;
   p {
   color: $bright-olive;
+  $font-size: $font-size-9;
+  }
+  @include media-query($desktop) {
+  margin-top: -1.4rem;
+  margin-bottom: -1.6rem;
+  p {
+  font-size: $font-size-1;
+  }
   }
 }
 
@@ -206,20 +232,27 @@ a visited {
   .content-container {
     margin-right: auto;
     margin-left: auto;
-    width: $article-width;
+    width: 80%;
+    max-width: $article-width;
   }
 
   .text {
-    width: $article-width;
+    max-width: $article-width;
     text-align: left;
   }
 
   .feature-image {
     text-align: center;
-    padding: 1.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
     img {
-    width: 60%;
+      width: 65%;
+      max-width: 300px;
+    }
+    @include media-query($desktop) {
+      img {
 
+      }
     }
   }
 
@@ -243,96 +276,121 @@ a visited {
 
 
 
-/* welcome.html */
+/* welcome.html for larger screens */
 
 .welcome-section {
   background-color: $blush;
   background-image: url("../images/background_letters_blush.png");
   background-image: repeat;
-  padding: 0px;
-  min-height: 32rem;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 5rem;
-  padding-bottom: 8rem;
-  font-size: 2.44rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 
-  .hi-there {
+ 
+
+  .welcome-content {
+  display: none;
+  @include media-query($small) {
+    display: block;
+    font-size: 1.6rem;
+    @include media-query($desktop) {
+      font-size: 2.44rem;
+      }
+    }
+
+  .hi-there { 
   font-family: acumin-pro-extra-condensed;
   font-weight: 700;
   font-style: normal;
+  color: $header-color;
   font-size: 100%;
   letter-spacing: 2px;
   line-height: 100%;
-  color: $header-color;
   }
 
-  .im-beth {
+  .im-beth { 
   font-family: acumin-pro-extra-condensed;
   font-weight: 700;
+  color: $text-color;
   font-size: 176%;
   letter-spacing: 2px;
   line-height: 100%;
   padding-top: 2rem;
-  color: $text-color;
   }
 
   .recent-work {
   font-family: acumin-pro-extra-condensed;
   font-weight: 900;
-  font-size: 136%;
-  letter-spacing: 4px;
-  line-height: 110%;
   color: $text-color;
+  font-size: 140%;
+  letter-spacing: 3px;
+  line-height: 110%;
+  @include media-query($desktop) {
+    font-size: 136%;
+    letter-spacing: 4px;
+    line-height: 110%;
+  }
   }
 
   .web-design {
   font-family: acumin-pro-wide;
   font-weight: 900;
-  font-size: 237%;
+  color: $text-color;
+  font-size: 243%;
   letter-spacing: 4px;
   line-height: 95%;
-  color: $text-color;
+  @include media-query($desktop) {
+    font-size: 237%;
+    }
   }
 
   .illustration {
   font-family: acumin-pro-condensed;
   font-weight: 900;
+  color: $text-color;
   font-size: 333%;
   letter-spacing: 6px;
   line-height: 85%;
-  color: $text-color;
   }
 
   .logo-design {
   font-family: acumin-pro;
   font-weight: 900;
-  font-size: 133.5%;
-  letter-spacing: 2px;
-  line-height: 145%;
   color: $text-color;
+  font-size: 130%;
+  letter-spacing: 3px;
+  line-height: 145%;
+  @include media-query($desktop) {
+    font-size: 133.5%;
+    letter-spacing: 2px;
+    }
   }
 
   .hand-lettering {
   font-family: acumin-pro-extra-condensed;
   font-weight: 900;
-  font-size: 334%;
-  letter-spacing: 8px;
-  line-height: 60%;
   color: $text-color;
+  font-size: 335%;
+  letter-spacing: 7px;
+  line-height: 60%;
+  @include media-query($desktop) {
+    font-size: 334%;
+    letter-spacing: 8px;
+    }
   }
 
   .fun-facts {
-  max-width: 47.7rem;
+  max-width: 32.8rem;
   margin: auto;
-  padding-top: 1.8rem;
+  padding-top: 1.4rem;
   h2 {
     text-align: left;
     font-family: acumin-pro;
     font-weight: 700;
+    color: $text-color;
     font-size: 91%;
     letter-spacing: 2.6px;
-    color: $text-color;
     padding: 0rem;
     margin: 0rem;
     }
@@ -340,18 +398,165 @@ a visited {
     text-align: left;
     font-family: acumin-pro-extra-condensed;
     font-weight: 700;
+    color: $text-color;
     font-size: 99%;
     letter-spacing: 1px;
     line-height: 108%;
+    padding-top: .6rem;
+    margin: 0rem;
+    }
+  @include media-query($desktop) {
+    max-width: 47.7rem;
+    padding-top: 1.8rem;
+    }
+  }
+}
+
+}
+
+
+
+/* welcome.html for mobile */
+
+.welcome-content-mobile {
+  display: block;
+
+  @include media-query($small) {
+    display: none;
+  }
+
+.hi-there-mobile { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  font-style: normal;
+  color: $header-color;
+  font-size: 100%;
+  letter-spacing: 2px;
+  line-height: 100%;
+  }
+
+  .im-beth-mobile-1 { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 176%;
+  letter-spacing: 2px;
+  line-height: 100%;
+  padding-top: 2rem;
+  }
+
+  .im-beth-mobile-2 { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 176%;
+  letter-spacing: 2px;
+  line-height: 100%;
+  padding-top: 2rem;
+  }
+
+  .recent-work-mobile-1 {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 140%;
+  letter-spacing: 3px;
+  line-height: 110%;
+  }
+
+  .recent-work-mobile-2 {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 140%;
+  letter-spacing: 3px;
+  line-height: 110%;
+  }
+
+  .recent-work-mobile-3 {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 140%;
+  letter-spacing: 3px;
+  line-height: 110%;
+  }
+
+  .web-design-mobile {
+  font-family: acumin-pro-wide;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 243%;
+  letter-spacing: 4px;
+  line-height: 95%;
+  }
+
+  .illustration-mobile {
+  font-family: acumin-pro-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 333%;
+  letter-spacing: 6px;
+  line-height: 85%;
+  }
+
+  .logo-design-mobile-1 {
+  font-family: acumin-pro;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 130%;
+  letter-spacing: 3px;
+  line-height: 145%;
+  }
+
+  .logo-design-mobile-2 {
+  font-family: acumin-pro;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 130%;
+  letter-spacing: 3px;
+  line-height: 145%;
+  }
+
+  .hand-lettering-mobile {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 335%;
+  letter-spacing: 7px;
+  line-height: 60%;
+  }
+
+  .fun-facts-mobile {
+  max-width: 32.8rem;
+  margin: auto;
+  padding-top: 1.4rem;
+  h2 {
+    text-align: left;
+    font-family: acumin-pro;
+    font-weight: 700;
     color: $text-color;
+    font-size: 91%;
+    letter-spacing: 2.6px;
+    padding: 0rem;
+    margin: 0rem;
+    }
+  p {
+    text-align: left;
+    font-family: acumin-pro-extra-condensed;
+    font-weight: 700;
+    color: $text-color;
+    font-size: 99%;
+    letter-spacing: 1px;
+    line-height: 108%;
     padding-top: .6rem;
     margin: 0rem;
     }
   }
 
 
-
 }
+
 
 
 
@@ -370,7 +575,7 @@ a visited {
 .gallery-section {
   background-color: $background-color-1;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   margin-top: -0.5rem;
   width: 100%;
   height: 100%;
@@ -383,10 +588,15 @@ a visited {
   .gallery-container {
     margin-right: auto;
     margin-left: auto;
-    width: $gallery-width;
+    width: 95%;
+    padding-left: 6px;
+    max-width: $gallery-width;
     h2 {
-    padding-bottom: 2rem;
-    }
+      padding-bottom: 2rem;
+      }
+    @include media-query($desktop) {
+      padding: 0px;
+    }  
   }
   .square {
     float: left;
@@ -503,41 +713,66 @@ a visited {
   font-family: $base-font-family;
   font-size: $font-size-2;
   line-height: $base-line-height;
-  padding: 7rem;
-
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  @include media-query($desktop) {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
 }
 
 .contact-content {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: $article-width;
+
 }
 
 .cta {
+  h2 {
+  color: $text-color;
+  text-align: center;
+  }
   padding-bottom: 2rem;
-  padding-left: .6rem;
-  width: $article-width;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  max-width: 22rem;
+  text-align: left;
+  @include media-query($desktop) {
+
+  }
 }
 
 #input-box {
   margin: .6rem;
   padding: .6rem;
   height: 1rem;
-  width: 22rem;
+  width: 80%;
+  max-width: 22rem;
   font-size: $font-size-1;
   font-family: $base-font-family;
+  @include media-query($desktop) {
+
+  }
 }
 
 #description-box {
   margin: .6rem;
   padding: .6rem;
   height: 8rem;
-  width: 22rem;
+  width: 80%;
+  max-width: 22rem;
   font-size: $font-size-1;
   font-family: $base-font-family;
-  placeholder {
-  text-align: vertical;
+  input[type="description"]::-webkit-input-placeholder {
+  vertical-align: top;
+  }
+  @include media-query($desktop) {
+
   }
 }
 
@@ -551,7 +786,7 @@ a visited {
   .button {
   background-color: $text-color;
   border: none;
-  margin: .6rem;
+  margin: 2rem;
   padding-top: .4rem;
   padding-bottom: .4rem;
   padding-right: 1.2rem;
@@ -561,7 +796,7 @@ a visited {
 
 .contact-page {
   background-color: $bright-olive;
-  height: 100%;
+  padding-bottom: 20%;
 }
 
 /* blog posts */
