@@ -232,7 +232,7 @@ a visited {
   .content-container {
     margin-right: auto;
     margin-left: auto;
-    width: 80%;
+    width: 87%;
     max-width: $article-width;
   }
 
@@ -430,114 +430,115 @@ a visited {
   font-weight: 700;
   font-style: normal;
   color: $header-color;
-  font-size: 100%;
+  font-size: 200%;
   letter-spacing: 2px;
   line-height: 100%;
+  margin-top: .2rem;
   }
 
   .im-beth-mobile-1 { 
   font-family: acumin-pro-extra-condensed;
   font-weight: 700;
   color: $text-color;
-  font-size: 176%;
+  font-size: 300%;
   letter-spacing: 2px;
-  line-height: 100%;
-  padding-top: 2rem;
+  line-height: 90%;
+  padding-top: 2.3rem;
   }
 
   .im-beth-mobile-2 { 
   font-family: acumin-pro-extra-condensed;
   font-weight: 700;
   color: $text-color;
-  font-size: 176%;
+  font-size: 305%;
   letter-spacing: 2px;
-  line-height: 100%;
-  padding-top: 2rem;
+  line-height: 90%;
   }
 
   .recent-work-mobile-1 {
-  font-family: acumin-pro-extra-condensed;
+  font-family: acumin-pro-wide;
   font-weight: 900;
   color: $text-color;
-  font-size: 140%;
-  letter-spacing: 3px;
-  line-height: 110%;
+  font-size: 173%;
+  letter-spacing: 4px;
+  line-height: 125%;
   }
 
   .recent-work-mobile-2 {
-  font-family: acumin-pro-extra-condensed;
+  font-family: acumin-pro-wide;
   font-weight: 900;
   color: $text-color;
-  font-size: 140%;
-  letter-spacing: 3px;
-  line-height: 110%;
+  font-size: 159%;
+  letter-spacing: 4px;
+  line-height: 90%;
   }
 
   .recent-work-mobile-3 {
-  font-family: acumin-pro-extra-condensed;
+  font-family: acumin-pro;
   font-weight: 900;
   color: $text-color;
-  font-size: 140%;
-  letter-spacing: 3px;
+  font-size: 249%;
+  letter-spacing: 4px;
   line-height: 110%;
   }
 
   .web-design-mobile {
-  font-family: acumin-pro-wide;
-  font-weight: 900;
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
   color: $text-color;
-  font-size: 243%;
+  font-size: 432%;
   letter-spacing: 4px;
-  line-height: 95%;
+  line-height: 71%;
   }
 
   .illustration-mobile {
-  font-family: acumin-pro-condensed;
+  font-family: acumin-pro-extra-condensed;
   font-weight: 900;
   color: $text-color;
-  font-size: 333%;
-  letter-spacing: 6px;
-  line-height: 85%;
+  font-size: 332%;
+  letter-spacing: 4px;
+  line-height: 110%;
   }
 
   .logo-design-mobile-1 {
-  font-family: acumin-pro;
+  font-family: acumin-pro-wide;
   font-weight: 900;
   color: $text-color;
-  font-size: 130%;
+  font-size: 345%;
   letter-spacing: 3px;
-  line-height: 145%;
+  line-height: 80%;
   }
 
   .logo-design-mobile-2 {
   font-family: acumin-pro;
   font-weight: 900;
   color: $text-color;
-  font-size: 130%;
+  font-size: 152%;
   letter-spacing: 3px;
-  line-height: 145%;
+  line-height: 150%;
   }
 
   .hand-lettering-mobile {
   font-family: acumin-pro-extra-condensed;
-  font-weight: 900;
+  font-weight: 700;
   color: $text-color;
-  font-size: 335%;
-  letter-spacing: 7px;
-  line-height: 60%;
+  font-size: 310%;
+  letter-spacing: 3px;
+  line-height: 65%;
   }
 
   .fun-facts-mobile {
-  max-width: 32.8rem;
+  max-width: 17.2rem;
   margin: auto;
-  padding-top: 1.4rem;
+  padding-top: 1.6rem;
   h2 {
     text-align: left;
     font-family: acumin-pro;
     font-weight: 700;
     color: $text-color;
-    font-size: 91%;
+    font-size: 106%;
     letter-spacing: 2.6px;
+    line-height: 110%;
     padding: 0rem;
     margin: 0rem;
     }
@@ -546,10 +547,10 @@ a visited {
     font-family: acumin-pro-extra-condensed;
     font-weight: 700;
     color: $text-color;
-    font-size: 99%;
+    font-size: 137%;
     letter-spacing: 1px;
     line-height: 108%;
-    padding-top: .6rem;
+    padding-top: .2rem;
     margin: 0rem;
     }
   }
@@ -585,13 +586,17 @@ a visited {
   display: table;
   clear: both;
   }
+
   .gallery-container {
     margin-right: auto;
     margin-left: auto;
-    width: 95%;
-    padding-left: 6px;
+    width: 100%;
+    padding-left: 2px;
     max-width: $gallery-width;
     h2 {
+      width: 87%;
+      margin-right: auto;
+      margin-left: auto;
       padding-bottom: 2rem;
       }
     @include media-query($desktop) {
@@ -739,7 +744,7 @@ a visited {
   padding-bottom: 2rem;
   margin-right: auto;
   margin-left: auto;
-  width: 80%;
+  width: 87%;
   max-width: 22rem;
   text-align: left;
   @include media-query($desktop) {
