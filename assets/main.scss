@@ -598,6 +598,9 @@ a visited {
       margin-right: auto;
       margin-left: auto;
       padding-bottom: 2rem;
+      @include media-query($desktop) {
+      width: 100%;
+      }
       }
     @include media-query($desktop) {
       padding: 0px;
