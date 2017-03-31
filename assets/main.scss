@@ -211,6 +211,9 @@ a visited {
 .site-description {
   text-align: center;
   margin-top: .6rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 87%;
   p {
   color: $bright-olive;
   $font-size: $font-size-9;
@@ -380,10 +383,36 @@ a visited {
     }
   }
 
+  .work-together {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 235%;
+  letter-spacing: 7px;
+  line-height: 150%;
+  @include media-query($desktop) {
+    font-size: 106%;
+    letter-spacing: 4px;
+    }
+  }
+
+  .welcome-contact {
+  font-family: acumin-pro;
+  font-weight: 700;
+  color: $link;
+  font-size: 247%;
+  letter-spacing: 6px;
+  line-height: 125%;
+  @include media-query($desktop) {
+    font-size: 100%;
+    letter-spacing: 2px;
+    }
+  }
+
   .fun-facts {
   max-width: 32.8rem;
   margin: auto;
-  padding-top: 1.4rem;
+  padding-top: .4rem;
   h2 {
     text-align: left;
     font-family: acumin-pro;
@@ -402,12 +431,12 @@ a visited {
     font-size: 99%;
     letter-spacing: 1px;
     line-height: 108%;
-    padding-top: .6rem;
+    padding-top: .2rem;
     margin: 0rem;
     }
   @include media-query($desktop) {
     max-width: 47.7rem;
-    padding-top: 1.8rem;
+    padding-top: .6rem;
     }
   }
 }
@@ -525,6 +554,32 @@ a visited {
   font-size: 310%;
   letter-spacing: 3px;
   line-height: 65%;
+  }
+
+  .work-together-mobile {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 335%;
+  letter-spacing: 7px;
+  line-height: 60%;
+  @include media-query($desktop) {
+    font-size: 334%;
+    letter-spacing: 8px;
+    }
+  }
+
+  .welcome-contact-mobile {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 335%;
+  letter-spacing: 7px;
+  line-height: 60%;
+  @include media-query($desktop) {
+    font-size: 334%;
+    letter-spacing: 8px;
+    }
   }
 
   .fun-facts-mobile {
@@ -715,7 +770,7 @@ a visited {
 
 
 
-/* contact form include, contact page */
+/* contact form include, contact page, contact me include */
 .contact-form {
   background-color: $bright-olive;
   font-family: $base-font-family;
@@ -748,10 +803,10 @@ a visited {
   margin-right: auto;
   margin-left: auto;
   width: 87%;
-  max-width: 22rem;
-  text-align: left;
+  max-width: 24rem;
+  text-align: center;
   @include media-query($desktop) {
-
+  text-align: left;
   }
 }
 

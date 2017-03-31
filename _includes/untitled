@@ -1,0 +1,8 @@
+<div class="contact-form">
+
+<div class="contact-content">
+	<div class="cta"><h2>Want to work together?</h2>
+		Send me a quick email and tell me a bit about your project. <a href="mailto:{{ site.email }}">beth.fioritto@gmail.com</a></div>
+	</div>
+
+</div>

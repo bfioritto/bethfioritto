@@ -9,4 +9,4 @@ title: Beth Fioritto
 
 {% include gallery.html %}
 
-{% include contact_form.html %}
+{% include contact_me.html %}
