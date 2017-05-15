@@ -3,6 +3,20 @@ layout: default
 title: My Blog
 ---
 
+<div class="blog-index">
+  <div class="content-container">
+
+  <h1>I like to write about design and business.</h1>
+
+  <div class="blog-subhead">Stuff like getting the most value out of hiring a designer, or what makes a great logo.</div>
+
+  <div class="blog-cta"><h2>Sound interesting? Great!</h2>
+
+  <h3>Give me your best email and I'll send you my practical, actionable design insights. (Don't worry, it's not a daily blast. We're talking once a month, tops.)</h3>
+
+    {% include cta-form.html %}
+  </div>
+
 <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -17,4 +31,5 @@ title: My Blog
 <br>
 
   <p class="rss-subscribe"><i>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</i></a></p>
-
+</div>
+</div>

@@ -131,13 +131,23 @@ $small:          767px;
   }
 }
 
+h1 {
+  font-family: $header-font-family;
+  font-size: $font-size-7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 4rem;
+  padding-bottom: .4rem;
+  color: $text-color;
+}
+
 h2 {
   font-family: $header-font-family;
   font-size: $font-size-3;
   font-weight: 700;
   color: $header-color;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.51px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -146,6 +156,7 @@ h3 {
   font-family: $base-font-family;
   font-weight: 700;
   font-size: $font-size-2;
+  line-height: $base-line-height;
   color: $text-color;
   padding-top: 0rem;
   padding-bottom: 1rem;
@@ -854,7 +865,71 @@ a visited {
   padding-bottom: 20%;
 }
 
-/* blog posts */
+/* blog */
+
+.blog-index {
+  background-color: $blush;
+  background-image: url("../images/background_letters_blush.png");
+  background-image: repeat;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.post-meta {
+  font-family: $base-font-family;
+  font-weight: 700;
+}
+
+.blog-subhead {
+  font-family: $header-font-family;
+  font-size: $font-size-3;
+  font-weight: 700;
+  color: $text-color;
+  text-transform: uppercase;
+  letter-spacing: 1.51px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.blog-cta {
+  h2 {
+    padding-top: 2.5rem;
+    padding-bottom: 3.1rem;
+  }
+  text-align: center;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+#newsletter-email {
+  margin: .6rem;
+  padding: .6rem;
+  height: 1rem;
+  width: 80%;
+  max-width: 18rem;
+  font-size: $font-size-1;
+  font-family: $base-font-family;
+  @include media-query($desktop) {
+
+  }
+}
+
+#newsletter-subscribe {
+  margin-top: .6rem;
+  margin-bottom: 3rem;
+  padding: .6rem;
+  border: none;
+  background-color: $link;
+  color: $background-color-1;
+  width: 80%;
+  max-width: 12rem;
+  font-size: $font-size-1;
+  font-family: $base-font-family;
+  @include media-query($desktop) {
+
+  }
+}
+
 
 /* not currently in use */
 
