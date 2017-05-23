@@ -1,43 +1,45 @@
 // Our variables
-$base-font-family: "acumin-pro", sans-serif;
-$header-font-family: "museo-slab", serif;
-$font-size-1: 1rem;
+
+$base-font-family: "effra", sans-serif;
+$header-font-family: "acumin-pro-extra-condensed", sans-serif;
+/* modular scale of 1.6 on a base of 1.05 and 1.2 */
+$font-size-1: 1.05rem;
 $font-size-2: 1.2rem;
-$font-size-3: 1.44rem;
-$font-size-4: 1.73rem;
-$font-size-5: 2.07rem;
-$font-size-6: 2.49rem;
-$font-size-7: 2.79rem; /* modular scale here should be 2.99 */
-$font-size-8: 3.58rem;
-$font-size-9: 1rem;
-$base-line-height: 1.6;
-$article-width: 710px;
+$font-size-3: 1.68rem;
+$font-size-4: 1.92rem;
+$font-size-5: 2.68rem;
+$font-size-6: 3.07rem;
+$font-size-7: 4.3rem; 
+$font-size-8: 4.92rem;
+$font-size-9: .75rem;
+$base-line-height: 1.45;
+$article-width: 32.21rem;
+$gallery-width: 47.7rem;
+$feature-image-width: 300px;
+$welcome-note-width: 600px;
 
 
-$background-color: rgb(240, 240, 240);
-$grey: rgb(140, 140, 140);
-$black: rgb(75, 75, 75);
-$white: rgb(255, 255, 255);
-$red-orange: rgb(202, 38, 30);
-$red-orange-bright: rgb(220, 55, 35);
-$red-orange-dark: rgb(110, 20, 90);
-$red-orange-light: rgb(240, 160, 140);
-$teal: rgb(5, 110, 115);
-$link: rgb(200, 60, 115); /* 218, 94, 125 */
-$link-visited: rgb(140, 38, 78);
+$background-color-1: rgb(241, 241, 240);
+$welcome-background-color: rgb(4,65,90);
+$light-grey: rgb(220,220,220);
+$medium-grey: rgb(190,187,180);
+$light-coral: rgb(253,158,140);
+$light-coral-transparent: rgba(253,160,153, 0.6);
+$blush: rgb(250,208,198);
+$bright-olive: rgb(158,173,88);
+$light-olive: rgb(208,218,138);
+$text-color: rgb(35,32,30);
+$headline-color: rgb(220,220,180);
+$header-color: rgb(253,63,50);
+$link: rgb(82,115,52);
+$link-visited: rgb(40,70,10);
+$hover-color: rgb(200,120,45);
 
 $desktop:        1024px;
+$small:          767px;
 
 @mixin media-query($breakpoint) {
     @media screen and (min-width: $breakpoint) {
         @content;
     }
-}
-
-@mixin clearfix {
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 }
