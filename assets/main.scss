@@ -84,6 +84,23 @@ p {
   padding-bottom: 1rem;
 }
 
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+}
+
+li {
+  font-family: $base-font-family;
+  font-size: $font-size-1;
+  font-weight: 300;
+  color: $text-color;
+  letter-spacing: 0px;
+  line-height: 1.68rem;
+}
+
 a {
   color: $link;
 
@@ -544,7 +561,7 @@ a visited {
 /* gallery.html */
 
 .gallery-section {
-  background-color: $background-color-1;
+  background-color: $background-color-2;
   padding-top: 4rem;
   padding-bottom: 6rem;
   margin-top: -0.5rem;
@@ -704,14 +721,50 @@ a visited {
 }
 
 .contact-me-content {
+  h2 {
+  color: $text-color;
+  margin-bottom: -1rem;
+  }
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  max-width: $narrow-width;
 
 }
 
 
 
+/* testimonials */
+
+.testimonial-section {
+  background-color: $background-color-1;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.testimonial {
+  text-align: center;
+  p {
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  font-family: $header-font-family;
+  text-transform: uppercase;
+  color: $text-color;
+  font-weight: 500;
+  font-size: $font-size-3;
+  letter-spacing: 1px;
+  i {
+  font-style: italic;
+  }
+  b {
+  font-weight: 500;
+  background-color: $blush;
+  }
+  }
+  img {
+  padding-top: 2rem;
+  }
+}
 
 /* blog */
 
@@ -781,6 +834,54 @@ a visited {
 
 
 
+/* blog posts */
+
+.blog-post {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 6rem;
+  max-width: $article-width;
+  background-color: $background-color-1;
+  .blog-post-content {
+  h2 {
+  color: $text-color;
+  font-size: $font-size-3;
+  font-weight: 300;
+  letter-spacing: 1px;
+  }
+  }
+  img {
+
+  }
+}
+
+.post {
+  background-color: $background-color-1;
+}
+
+.caption {
+  font-size: $caption;
+  font-family: $base-font-family;
+  font-weight: 300;
+  font-style: italic;
+  color: $medium-grey;
+}
+
+.post-cta {
+  text-align: center;
+  width: 80%;
+  max-width: $article-width;
+  margin-right: auto;
+  margin-left: auto;
+  h2 {
+  font-weight: 300;
+  font-size: $font-size-2;
+  letter-spacing: 1px;
+  color: $text-color;
+  line-height: 1.4rem;
+  }
+}
+
 
 
 
@@ -821,22 +922,6 @@ a visited {
     }
   */
 
-
-  .cta {
-  h2 {
-  color: $text-color;
-  text-align: center;
-  }
-  padding-bottom: 2rem;
-  margin-right: auto;
-  margin-left: auto;
-  width: 87%;
-  max-width: 24rem;
-  text-align: center;
-  @include media-query($desktop) {
-  text-align: left;
-  }
-}
 
 #input-box {
   margin: .6rem;
