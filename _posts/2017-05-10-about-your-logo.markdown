@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Does Your Logo Even Matter?"
+image: <img src="/images/does_your_logo_matter_title_image.png" alt="title image" width="100%">
 date:   2017-05-10 11:21:21 -0600
 categories: logo design branding
 ---
