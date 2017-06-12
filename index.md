@@ -3,7 +3,7 @@ layout: default
 title: Beth Fioritto
 ---
 
-{% include site_nav.html %}
+
 
 {% include welcome.html %}
 

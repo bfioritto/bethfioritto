@@ -6,11 +6,9 @@ date:   2017-05-10 11:21:21 -0600
 categories: logo design branding
 ---
 
-Logos. 
+Let's be real—I know you've been to Target and wondered what was up with their logo. Did they really pay someone good money to design a circle and a dot? Or those redesigns of major brands that cost millions of dollars that people love to hate. 
 
-Let's be real—I know you've been to Target and wondered what was up with that logo. Did they really pay someone good money to design a circle and a dot? And I'm sure you've seen those redesigns of major brands that cost millions of dollars that people love to hate. And if you've been around a startup (or even just watched Silicon Valley) you know how silly a logo can be for a non-existent product. 
-
-So what value does a company really get out of its logo? Does a it even matter? The answer is, <i>it depends.</i> But first you need to understand what a logo is supposed to do. Which is—<i>what,</i> exactly?
+So what value does a logo actually bring to a company? Does it even matter? The answer is, <i>it depends.</i> But first you need to understand what a logo is supposed to do. Which is—<i>what,</i> exactly?
 
  
 <h2>A logo is a symbol for your company.</h2>
@@ -27,7 +25,7 @@ Famous logo designer Paul Rand put it this way: “A logo derives its meaning fr
  
 Does this mean a logo has no meaning at all? Definitely not. 
  
-A good logo can communicate many things to customers (and prospective customers). 
+A logo communicates many things to customers (and prospective customers) through visual design choices. 
  
 Here are just a few ways it can do that:
 
@@ -42,58 +40,89 @@ Here are just a few ways it can do that:
 </ul>
  
 <img src="/images/logo_examples.png" alt="examples of logos with different visual strategies" width="100%">
-<div class="caption">Logos with different visual strategies. Naughton's Plumbing by Godat Design. Jacobson Law by Paperstreet. Kansk Papermaking Equipment by V. Parfenov. House Granola (designer unknown—please let me know if it's you!). Chase by Chermayeff and Geismar. Saks Fifth Avenue by Michael Bierut.</div>
+<div class="caption">A variety of visual communication strategies. Naughton's Plumbing by Godat Design. Jacobson Law by Paperstreet. Kansk Papermaking Equipment by V. Parfenov. House Granola (designer unknown—please let me know if it's you!). Chase by Chermayeff and Geismar. Saks Fifth Avenue by Michael Bierut.</div>
  
 Just like we communicate a bit about ourselves through our personal appearance, a logo can do the same thing for a business. And as with our clothing choices, some design choices are positive or negative, while others are more about resonating with who we are on the inside. 
  
 <h2>Logos should reflect the “personality” of the business.</h2>
- 
-(show two companies who do the same thing but market themselves totally differently: trader joes and some shmancy specialty foods store. Caption: both these places sell food, and even have significant overlap in products, but we all know which store’s employees wear hawaiian shirts.)
- 
-Do you wear a three piece suit to work? Your logo needs to be the equivalent. Pride yourself on creating a cozy atmosphere in your cafe? Your logo should reflect that. 
- 
+  
+Do you wear a three piece suit to work? Your logo needs to be the equivalent. Pride yourself on creating a cozy atmosphere in your cafe? Make sure your logo reflects that. 
+
+<img src="/images/tjs_olivias_logos.png" alt="Comparing Trader Joes and Olivia's Visual Identities" width="100%">
+<div class="caption">Both these brands sell food, and even overlap in their product offerings, but we all know which store’s employees wear hawaiian shirts.</div>
+
 A logo is often the first impression your business makes—it needs to be a good one, and <b>it needs to be consistent with what a customer will experience in doing business with your company.</b>
  
-When that first impression and the later experience match, you’re capitalizing on a psychological phenomenon known as confirmation bias. Here’s the gist of it: When we see something new, we try to make sense of it by developing a theory about it. Then, we look for evidence that supports our theory. We actually <i>prime ourselves</i> to look for things that confirm our theory.
+When that first impression matches the experience, <b>you benefit from a psychological phenomenon known as confirmation bias.</b> Here’s the gist of it: When we see something new, we try to make sense of it by developing a theory about it. Then, we look for evidence that supports our theory. We actually <i>prime ourselves</i> to look for things that confirm our theory.
  
 Here’s how it works with a logo:
-(make a little comic or some kind of graphic)
--customer sees logo. It’s visually communicating the vibes you are putting out into the world, attracting the attention of person who digs those vibes. “That looks interesting.”
--customer is now telling themselves a story about your company. “I bet their ice cream tastes just like grandma used to make!”
--that person walks into your shop (or website, or however you do biz). Customer experience matches the story they have been telling themselves, which provides evidence for their theory that they will like what you’re offering. “I knew this place was gonna be great!”
--you create a feedback loop of happiness in your customer’s brain. :-)
+
+A customer sees your logo. It's visually communicating something—ideally something that resonates with your core audience.
+
+<img src="/images/confirmation_bias_1.jpg" alt="Logo for fictitious Old Timey Ice Cream Shop" width="100%">
+
+<div class="caption">Old Timey Ice Cream...Sounds yummy!</div>
+
+They begin telling themselves a story about your brand based on whatever information they have (ie your logo)...
+
+<img src="/images/confirmation_bias_2.jpg" alt="...like when grandma took us for ice cream in the summer!" width="100%">
+
+They have an experience with your company that confirms the story they've been telling themselves. This experience <i>provides evidence</i> for the theory they've developed. You create a feedback loop of happiness in the customer's brain.
+
+<img src="/images/confirmation_bias_3.jpg" alt="I knew this place would be great!" width="100%">
  
 Contrast that with a mismatch between the logo and the real experience: entice people with a logo that doesn’t match what they’re getting, and you’ll lose their trust, or at the very least keep them guessing (which probably doesn’t lead to sales for your biz). 
  
 <h2>Great logos have quality execution.</h2>
  
-Your logo—good, bad, or ugly—is communicating <i>something</i> to your customers (and just as importantly, to prospective customers—it may be the only thing they know about your company). It’s your company’s first impression: a handshake, a smile, a classy suit. It’s part of how you show customers you’re professional and take pride in your work. 
+Your logo—good, bad, or ugly—is communicating <i>something</i> to your customers (and just as importantly, to prospective customers—it may be the only thing they know about your company). <b>It’s your company’s first impression: a firm handshake; a confident smile.</b> It’s a way to show show customers you’re professional and take pride in your work. 
 
-Could you hire someone on fivver to throw something together in Illustrator? Sure. But what will that logo tell the world about your business? Think about buying a suit: suits come at a wide variety of price points, but I’m sure you can tell the difference between a cheap suit and a bespoke one. 
+Think about buying a suit: you can buy one at a wide variety of price points, but I’m sure you can tell the difference between a cheap suit and a bespoke one. 
  
-But it goes beyond aesthetics and quality construction—<b>logos are not teeny art projects to be gazed upon and admired.</b> A good designer considers how and where your logo will be used—what sizes? Over photographs? In color? In print? Online? As a profile image on instagram? And they take these requirements into consideration when crafting a logo.
- 
-(Show examples of good and bad logo execution and show how professional design makes it better. If possible show graphically similar logos working well and not well). 
+But it goes beyond aesthetics and quality construction—<b>logos are not teeny art projects to be gazed upon and admired. A good designer considers how and where your logo will be used</b>—what sizes? Over photographs? In print? Online? As a profile image on instagram? And they take these requirements into consideration when crafting a logo.
  
 <h2>An effective logo is not just a logo.</h2>
  
-It is also the ways in which it is used. Your logo, the colors, the typefaces, the ways your logo gets applied in various contexts—this is called a visual identity or brand identity. In many ways, this is even <i>more</i> important than the logo itself. The same thought process behind a good logo also applies to the rest of the visual identity. 
+It is also the ways in which it is used. Your logo, the colors, the typefaces, the ways your logo gets applied in various contexts—<b>this is called a visual identity or brand identity. In many ways, this is even <i>more</i> important than the logo itself.</b> 
+
+The same thought process behind a good logo also applies to the rest of the visual identity, and it's a big part of why a well-designed logo looks professional in a way that you might not be able to put your finger on. A visual identity also protects your investment in your logo: having a coherent visual identity means that anytime you need materials (brochures, business cards, website, menus, signage, etc.) your designer has a set of guidelines that will make your new materials visually cohesive with all your other materials. That's something even the best logo can't do on its own. 
  
 <h2>When do you not need a logo?</h2>
+
+I'm going to let you in on a little secret: <b>a lot of companies that spend big bucks on logos and brand identities don't need them.</b> Or at the very least, they're getting ahead of themselves. 
+
+Who doesn't need a logo? 
+
+If your company doesn't have a product (or service)—<b>if you don't have a clear understanding of your core business and how you make money—forget about a logo.</b> Figure out your meat and potatoes first. And not just for the sake of revenue: <b>creating an effective logo requires you to know your core business really well.</b> If you can't explain that to a designer, you're going to end up with something generic and ineffective. The meaning of your logo comes from the product or company—you need to start there. 
+
+But if you're in that boat, you probably still want something so you can "fake it 'til you make it." So make one yourself! Marc Hemeon wrote a popular piece about <a href="https://journal.designinc.com/how-to-make-a-logo-for-free-in-about-5-minutes-a4f409176a8e">creating a DIY logo in five minutes.</a> I think it's great advice if you're looking for a way to identify yourself, but you don't have any revenue. Will it look like you did it yourself? Probably. But <b>your core business is more important.</b>
+
+Now, designers have argued over whether Marc's tips are devaluing design, which seems a bit silly. If design can <i>truly</i> be replaced by someone spending five minutes noodling around in Photoshop, it really <i>doesn't</i> have much value. Obviously, a really effective logo takes quite a bit more thought and skill. 
+
+Whether the difference <i>matters</i> has very little to do with design itself: <b>it's more about whether design is a good investment for your company.</b>
  
-Marc Hemeon wrote a popular piece on <a href="https://journal.designinc.com/how-to-make-a-logo-for-free-in-about-5-minutes-a4f409176a8e">creating a DIY logo in five minutes</a>, and while designers have argued over whether he is devaluing design, he makes a great point about who actually <i>doesn't</i> need a logo. If you don’t have any money coming in, or you don’t know what your product is, you’re probably not ready for a logo. Focus on your product, not on playing "business"—not only to generate revenue, but also because <b>creating a logo requires you to know your core business really well.</b> The meaning of the logo comes from your product or company, not the other way around.
- 
-<h2>Ask yourself: what do you hope your logo will accomplish?</h2>
+<h2>What do you hope your logo will accomplish?</h2>
 
 Your logo is more than just a pretty face: it’s got a job to do. It’s not going to just sit by the pool and drink mai-tais all day. (If it is, you should fire it.)
  
-Before you spend so much as a dime on a logo, you should ask yourself what you want your logo to do for your business. Go ahead, I’ll wait.
+<b>Before you spend so much as a dime on a logo, you should ask yourself what you hope it will do for your business.</b>
  
-I’ll bet you said something about looking professional, or using a logo to create marketing materials. My guess is that most of the things you thought of involve how you want your company to be perceived.
+So, think about it. Do you need to put a professional face on your company? Need to create marketing materials? My guess is that most of the things that come to mind involve <b>how you want your company to be perceived.</b> If it makes <i>sound business sense</i> to invest in how your company is perceived, then as you might have guessed, professional design services are a good investment for your business.
 
-So does your logo really matter? Definitely. Creating a logo is an investment in your business, and you should evaluate it in those terms. But it matters <i>less</i> than what your business <i>does.</i> 
+Have you invested time and resources into customer relationships—into building trust and integrity with customers?
 
-Because it doesn't mean anything without that.
+When people recognize your logo, does it matter that the logo looks professional, like a company you're proud to run?
+
+Would you feel like you had wasted your time if you took a gamble on a "cheap" option and got something beneath your standards?
+
+Do you want what people see to reflect the quality of product or serivce that you provide?
+
+If you said yes to any of those, your logo <i>does</i> matter. 
+
+<b>Creating a logo is an investment in your business.</b>
+
+But it will always matter less than what your business <i>does.</i> 
+
 
 
  

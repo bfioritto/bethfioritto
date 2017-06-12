@@ -1,0 +1,325 @@
+/* welcome.html for larger screens */
+
+.welcome-section {
+  background-color: $blush;
+  background-image: url("../images/background_letters_blush.png");
+  background-image: repeat;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+ 
+
+  .welcome-content {
+  display: none;
+  @include media-query($small) {
+    display: block;
+    font-size: 1.6rem;
+    @include media-query($desktop) {
+      font-size: 2.44rem;
+      }
+    }
+
+  .hi-there { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  font-style: normal;
+  color: $header-color;
+  font-size: 100%;
+  letter-spacing: 2px;
+  line-height: 100%;
+  }
+
+  .im-beth { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 176%;
+  letter-spacing: 2px;
+  line-height: 100%;
+  padding-top: 2rem;
+  }
+
+  .recent-work {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 140%;
+  letter-spacing: 3px;
+  line-height: 110%;
+  @include media-query($desktop) {
+    font-size: 136%;
+    letter-spacing: 4px;
+    line-height: 110%;
+  }
+  }
+
+  .web-design {
+  font-family: acumin-pro-wide;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 243%;
+  letter-spacing: 4px;
+  line-height: 95%;
+  @include media-query($desktop) {
+    font-size: 237%;
+    }
+  }
+
+  .illustration {
+  font-family: acumin-pro-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 333%;
+  letter-spacing: 6px;
+  line-height: 85%;
+  }
+
+  .logo-design {
+  font-family: acumin-pro;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 130%;
+  letter-spacing: 3px;
+  line-height: 140%;
+  @include media-query($desktop) {
+    font-size: 133.5%;
+    letter-spacing: 2px;
+    }
+  }
+
+  .hand-lettering {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 335%;
+  letter-spacing: 7px;
+  line-height: 65%;
+  @include media-query($desktop) {
+    font-size: 334%;
+    letter-spacing: 8px;
+    }
+  }
+
+  .work-together {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 108.5%;
+  letter-spacing: 3px;
+  line-height: 190%;
+  @include media-query($desktop) {
+    font-size: 106%;
+    letter-spacing: 4px;
+    }
+  }
+
+  .welcome-contact {
+  font-family: acumin-pro;
+  font-weight: 700;
+  color: $link;
+  font-size: 121%;
+  letter-spacing: 2px;
+  line-height: 45%;
+  @include media-query($desktop) {
+    font-size: 118%;
+    letter-spacing: 2px;
+    }
+  }
+
+  .fun-facts {
+  max-width: 32.8rem;
+  margin: auto;
+  padding-top: 1.1rem;
+  h2 {
+    text-align: left;
+    font-family: acumin-pro;
+    font-weight: 700;
+    color: $text-color;
+    font-size: 91%;
+    letter-spacing: 2.6px;
+    padding: 0rem;
+    margin: 0rem;
+    }
+  p {
+    text-align: left;
+    font-family: acumin-pro-extra-condensed;
+    font-weight: 700;
+    color: $text-color;
+    font-size: 99%;
+    letter-spacing: 1px;
+    line-height: 108%;
+    padding-top: .2rem;
+    margin: 0rem;
+    }
+  @include media-query($desktop) {
+    max-width: 47.7rem;
+    padding-top: 1.6rem;
+    }
+  }
+}
+
+}
+
+
+
+/* welcome.html for mobile */
+
+.welcome-content-mobile {
+  display: block;
+
+  @include media-query($small) {
+    display: none;
+  }
+
+.hi-there-mobile { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  font-style: normal;
+  color: $header-color;
+  font-size: 200%;
+  letter-spacing: 2px;
+  line-height: 100%;
+  margin-top: .2rem;
+  }
+
+  .im-beth-mobile-1 { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 300%;
+  letter-spacing: 2px;
+  line-height: 90%;
+  padding-top: 2.3rem;
+  }
+
+  .im-beth-mobile-2 { 
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 305%;
+  letter-spacing: 2px;
+  line-height: 90%;
+  }
+
+  .recent-work-mobile-1 {
+  font-family: acumin-pro-wide;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 173%;
+  letter-spacing: 4px;
+  line-height: 125%;
+  }
+
+  .recent-work-mobile-2 {
+  font-family: acumin-pro-wide;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 159%;
+  letter-spacing: 4px;
+  line-height: 90%;
+  }
+
+  .recent-work-mobile-3 {
+  font-family: acumin-pro;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 249%;
+  letter-spacing: 4px;
+  line-height: 110%;
+  }
+
+  .web-design-mobile {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 432%;
+  letter-spacing: 4px;
+  line-height: 71%;
+  }
+
+  .illustration-mobile {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 332%;
+  letter-spacing: 4px;
+  line-height: 110%;
+  }
+
+  .logo-design-mobile-1 {
+  font-family: acumin-pro-wide;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 345%;
+  letter-spacing: 3px;
+  line-height: 78%;
+  }
+
+  .logo-design-mobile-2 {
+  font-family: acumin-pro;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 152%;
+  letter-spacing: 3px;
+  line-height: 150%;
+  }
+
+  .hand-lettering-mobile {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 310%;
+  letter-spacing: 3px;
+  line-height: 60%;
+  }
+
+  .work-together-mobile {
+  font-family: acumin-pro-extra-condensed;
+  font-weight: 700;
+  color: $text-color;
+  font-size: 107%;
+  letter-spacing: 1px;
+  line-height: 230%;
+  }
+
+  .welcome-contact-mobile {
+  font-family: acumin-pro;
+  font-weight: 900;
+  color: $text-color;
+  font-size: 101%;
+  letter-spacing: 1px;
+  line-height: 20%;
+  }
+
+  .fun-facts-mobile {
+  max-width: 17.2rem;
+  margin: auto;
+  padding-top: 1.8rem;
+  h2 {
+    text-align: left;
+    font-family: acumin-pro;
+    font-weight: 700;
+    color: $text-color;
+    font-size: 106%;
+    letter-spacing: 2.6px;
+    line-height: 110%;
+    padding: 0rem;
+    margin: 0rem;
+    }
+  p {
+    text-align: left;
+    font-family: acumin-pro-extra-condensed;
+    font-weight: 700;
+    color: $text-color;
+    font-size: 137%;
+    letter-spacing: 1px;
+    line-height: 108%;
+    padding-top: .2rem;
+    margin: 0rem;
+    }
+  }
+
+
+}

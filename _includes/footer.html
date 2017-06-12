@@ -1,5 +1,9 @@
 <footer class="site-footer">
 
+        <div class="site-description">
+        <p>{{ site.description | escape }}</p>
+      </div>
+
         <ul class="contact-list">
           {% if site.email %}
           <li><a href="mailto:{{ site.email }}">{% include email_icon.svg %}</a></li>
@@ -18,8 +22,6 @@
           {% endif %}
         </ul>
 
-      <div class="site-description">
-        <p>{{ site.description | escape }}</p>
-      </div>
+
 
 </footer>
