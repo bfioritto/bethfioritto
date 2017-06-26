@@ -96,18 +96,16 @@ Who doesn't need a logo?
 If your company doesn't have a product (or service)—<b>if you don't have a clear understanding of your core business and how you make money—forget about a logo.</b> Figure out your meat and potatoes first. And not just for the sake of revenue: <b>creating an effective logo requires you to know your core business really well.</b> If you can't explain that to a designer, you're going to end up with something generic and ineffective. The meaning of your logo comes from the product or company—you need to start there. 
 
 But if you're in that boat, you probably still want something so you can "fake it 'til you make it." So make one yourself! Marc Hemeon wrote a popular piece about <a href="https://journal.designinc.com/how-to-make-a-logo-for-free-in-about-5-minutes-a4f409176a8e">creating a DIY logo in five minutes.</a> I think it's great advice if you're looking for a way to identify yourself, but you don't have any revenue. Will it look like you did it yourself? Probably. But <b>your core business is more important.</b>
-
-Now, designers have argued over whether Marc's tips are devaluing design, which seems a bit silly. If design can <i>truly</i> be replaced by someone spending five minutes noodling around in Photoshop, it really <i>doesn't</i> have much value. Obviously, a really effective logo takes quite a bit more thought and skill. 
-
-Whether the difference <i>matters</i> has very little to do with design itself: <b>it's more about whether design is a good investment for your company.</b>
  
 <h2>What do you hope your logo will accomplish?</h2>
 
 Your logo is more than just a pretty face: it’s got a job to do. It’s not going to just sit by the pool and drink mai-tais all day. (If it is, you should fire it.)
  
-<b>Before you spend so much as a dime on a logo, you should ask yourself what you hope it will do for your business.</b>
+<b>Before you spend so much as a dime on a logo, you should ask yourself what you hope it will do for your business.</b> 
  
-So, think about it. Do you need to put a professional face on your company? Need to create marketing materials? My guess is that most of the things that come to mind involve <b>how you want your company to be perceived.</b> If it makes <i>sound business sense</i> to invest in how your company is perceived, then as you might have guessed, professional design services are a good investment for your business.
+So think about it. Do you need marketing materials? Want your business to look professional? Do you need to put a professional face on your company? Need to create marketing materials? My guess is that most of the things that come to mind involve <b>how you want your company to be perceived.</b> 
+
+Your logo is an investment, and like other investments you make in your business, you need to evaluate whether it's a good investment at the time. Even if something would be beneficial, you have to weigh it against your goals. Here are some things to think about:
 
 Have you invested time and resources into customer relationships—into building trust and integrity with customers?
 
@@ -117,11 +115,9 @@ Would you feel like you had wasted your time if you took a gamble on a "cheap" o
 
 Do you want what people see to reflect the quality of product or serivce that you provide?
 
+If it makes <i>sound business sense</i> to invest in how your company is perceived, then as you might have guessed, professional design services are a good investment for your business.
+
 If you said yes to any of those, your logo <i>does</i> matter. 
-
-<b>Creating a logo is an investment in your business.</b>
-
-But it will always matter less than what your business <i>does.</i> 
 
 
 
