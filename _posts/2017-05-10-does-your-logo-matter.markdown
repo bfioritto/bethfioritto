@@ -49,7 +49,7 @@ Just like we communicate a bit about ourselves through our personal appearance, 
 Do you wear a three piece suit to work? Your logo needs to be the equivalent. Pride yourself on creating a cozy atmosphere in your cafe? Make sure your logo reflects that. 
 
 <img src="/images/tjs_olivias_logos.png" alt="Comparing Trader Joes and Olivia's Visual Identities" width="100%">
-<div class="caption">Both these brands sell food, and even overlap in their product offerings, but we all know which store’s employees wear hawaiian shirts.</div>
+<div class="caption">Both these brands sell food, but we all know which store’s employees wear hawaiian shirts.</div>
 
 A logo is often the first impression your business makes—it needs to be a good one, and <b>it needs to be consistent with what a customer will experience in doing business with your company.</b>
  
@@ -63,7 +63,7 @@ A customer sees your logo. It's visually communicating something—ideally somet
 
 <div class="caption">Old Timey Ice Cream...Sounds yummy!</div>
 
-They begin telling themselves a story about your brand based on whatever information they have (ie your logo)...
+They begin telling themselves a story about your brand based on whatever information they have (your logo, perhaps something they heard word of mouth)...
 
 <img src="/images/confirmation_bias_2.jpg" alt="...like when grandma took us for ice cream in the summer!" width="100%">
 
