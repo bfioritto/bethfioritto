@@ -63,7 +63,7 @@ A customer sees your logo. It's visually communicating something—ideally somet
 
 <div class="caption">Old Timey Ice Cream...Sounds yummy!</div>
 
-They begin telling themselves a story about your brand based on whatever information they have (your logo, perhaps something they heard word of mouth)...
+They begin telling themselves a story about your brand based on whatever information they have (your logo, what they've heard word of mouth)...
 
 <img src="/images/confirmation_bias_2.jpg" alt="...like when grandma took us for ice cream in the summer!" width="100%">
 
