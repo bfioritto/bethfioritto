@@ -103,19 +103,19 @@ Your logo is more than just a pretty face: it’s got a job to do. It’s not go
  
 <b>Before you spend so much as a dime on a logo, you should ask yourself what you hope it will do for your business.</b> 
  
-So think about it. Do you need marketing materials? Want your business to look professional? Need to create marketing materials? My guess is that most of the things that come to mind involve <b>how you want your company to be perceived.</b> 
+So think about it. Do you need marketing materials? Want your business to look professional? My guess is that most of the things that come to mind involve how you want your company to be perceived. 
 
-Your logo is an investment, and like other investments you make in your business, you need to evaluate not just if it's a good or bad move, but when it makes sense to go for it. Even if something might be beneficial, you have to weigh it against your goals. Here are some things to think about:
+Your logo is an investment, like many others you make in your business. It's part of managing perceptions of your company. Think of it as a way to support other investments in this area. 
 
-Have you invested time and resources into customer relationships—into building trust and integrity with customers?
+Things like investing time and resources into building relationships with customers and leads.
 
-When people recognize your logo, does it matter that the logo looks professional, like a company you're proud to run?
+Establishing a reputation for quality, integrity, etc.
 
-Would you feel like you had wasted your time if you took a gamble on a "cheap" option and got something beneath your standards?
+Establishing authority in your field.
 
-Do you want what people see to reflect the quality of product or serivce that you provide?
+Investing time and attention in an excellent customer experience.
 
-If you're doing these things, then an investment in a logo is a good idea. A logo is just one of many ways you invest in your business's success. So if it makes <i>sound business sense</i> to invest in how your company is perceived, then yes—your logo matters. 
+These are all very real, but very intangible investments. A logo is an anchor for these things—a visual form that can embody all the abstractions in your customers' minds. So if it makes <i>sound business sense</i> to invest in how your company is perceived, then yes—your logo matters. 
 
 
  

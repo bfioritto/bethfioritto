@@ -124,11 +124,15 @@ a visited {
   color: $link-visited;
 }
 
+
+/* footer */
+
+
 .site-footer {
 
   background-color: $link;
   padding-bottom: 0rem;
-  padding-top: 0rem;
+  padding-top: 1rem;
   @include media-query($desktop) {
   margin-top: 0rem;
   padding-top: 1rem;
@@ -141,12 +145,14 @@ a visited {
   margin-left: auto;
   max-width: 87%;
   padding-top: 0rem;
+  padding-bottom: 1rem;
   p {
   color: $bright-olive;
   $font-size: $font-size-9;
   padding: 0rem;
   }
   @include media-query($desktop) {
+  padding-bottom: 0rem;
   margin-bottom: -1.4rem; /* aligns the description with the social buttons! */
   p {
   font-size: $font-size-1;

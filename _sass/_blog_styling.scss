@@ -2,13 +2,21 @@
 
 .blog-index {
   background-color: $blush;
-  background-image: url("../images/background_letters_blush.png");
-  background-image: repeat;
   padding-top: 6rem;
   padding-bottom: 6rem;
   h1 {
+  font-size: $font-size-6;
+  line-height: 3rem;
   text-align: center;
   font-weight: 700;
+  }
+  @include media-query($desktop) {
+  h1 {
+  font-size: $font-size-7;
+  line-height: 4rem;
+  text-align: center;
+  font-weight: 700;
+  }
   }
 }
 
@@ -70,6 +78,8 @@
 /* blog posts */
 
 .blog-post {
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-right: auto;
   margin-left: auto;
   padding-top: 6rem;
@@ -83,8 +93,9 @@
   letter-spacing: 1px;
   }
   }
-  img {
-
+  @include media-query($desktop) {
+  padding-left: 0rem;
+  padding-right: 0rem;
   }
 }
 
