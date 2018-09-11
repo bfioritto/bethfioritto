@@ -47,6 +47,12 @@
 
 /* type styling */
 
+.internal-link {
+  cursor: text;
+  text-decoration: none;
+  color: inherit;
+}
+
 h1 {
   font-family: $header-font-family;
   font-size: $font-size-7;
